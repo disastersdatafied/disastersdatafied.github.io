@@ -4,6 +4,7 @@ body {
     margin: auto;
     text-align: center;
     background: linear-gradient(to bottom, rgb(116, 116, 171), rgb(25, 138, 175));
+    min-height: 100vh;
 }
 
 header {
@@ -26,8 +27,8 @@ header, p {
 
 .card {
     /* existing styles */
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -51,13 +52,17 @@ a {
 }
 
 .card-wildfire {
-    background-color: #faebd7;
+    background-color: rgb(255, 207, 179);
 }
 
 .card-flooding {
-    background-color: #ddf5dc;
+    background-color: rgb(182, 247, 252);
 }
 
 .card-drought {
     background-color: #ffe4c4;
+}
+
+.card-hurricane {
+    background-color: rgb(255, 214, 233);
 }
